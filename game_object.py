@@ -35,7 +35,7 @@ class GameObject:
 
 class Character(GameObject):
     def __init__(self, x: float, y: float, life: int, camera: Vector2f, bullet_manger: BulletManager):
-        super().__init__(x, y, camera, CHAR_SIZE)
+        super().__init__(x, y, camera, 8)
         self.bullet_manger = bullet_manger
         self.life = life
 

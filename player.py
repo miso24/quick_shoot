@@ -3,7 +3,7 @@ from typing import ClassVar, TYPE_CHECKING
 import pyxel # type: ignore
 import math
 
-from constants import 8
+from game_object import Character
 from vector import Vector2f
 
 
