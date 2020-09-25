@@ -20,6 +20,9 @@ class Player(Character):
         super().__init__(x, y, Player.LIFE_MAX, camera, bullet_manager)
         self.angle = 0.0
         self.shot_count = 0
+        self.init_status()
+
+    def init_status(self) -> None:
         self.speed = 1.0
         self.shot_level = 1
 

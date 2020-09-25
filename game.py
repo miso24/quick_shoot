@@ -70,6 +70,7 @@ class Game:
             if pyxel.btn(pyxel.KEY_R):
                 self.reset_timer()
                 self.player.life = self.player.LIFE_MAX
+                self.player.init_status()
                 self.wave.level = 1
                 self.state = "idle"
 
